@@ -1,16 +1,17 @@
 {
-  "name": "my-automation-test",
+  "name": "Automation Test", 
   "version": "1.0.0",
-  "description": "Automation tests using Mocha and Playwright",
-  "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "mocha tests/*.js"
+    "test": "mocha"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^11.2.0",
-    "mocha": "^10.0.0",
-    "playwright": "^1.49.1"
+
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "@playwright/test": "^1.37.1", 
+    "@types/mocha": "^10.0.1", 
+    "mocha": "^10.2.4", 
+    "typescript": "^5.1.6" 
+  }
 }

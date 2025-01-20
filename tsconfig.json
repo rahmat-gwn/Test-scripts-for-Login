@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "commonjs",
+      "lib": ["es2020", "dom", "dom.iterable", "dom.asynciterable"],
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "noEmitOnError": true,
+      "incremental": true,
+      "moduleResolution": "node"
+    },
+    "include": [
+      "**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
