@@ -5,7 +5,7 @@ module.exports = {
   createDriver: function() {
     return new Builder()
       .forBrowser('chrome')
-      .setChromeOptions(new chrome.Options().headless()) // Menjalankan browser dalam mode headless
+      .setChromeOptions(new chrome.Options().headless()) 
       .build();
   }
 };
